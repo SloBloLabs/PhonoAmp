@@ -1488,6 +1488,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3246,7 +3328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 120.3452 134.62 0)
 			(effects
 				(font
@@ -3316,7 +3398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 54.3052 179.07 0)
 			(effects
 				(font
@@ -3471,7 +3553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 177.8 123.4948 0)
 			(effects
 				(font
@@ -3541,7 +3623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.458 31.75 90)
 			(effects
 				(font
@@ -3584,6 +3666,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 114.3 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa738ce-4309-4cbb-b9d4-67c19b6cbef2")
+		(property "Reference" "H1"
+			(at 116.84 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 116.84 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/7d780e20-3bc8-473b-9c67-abefb61105a4"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 181.61 116.84 270)
 		(unit 1)
@@ -3609,7 +3755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 181.61 115.062 90)
 			(effects
 				(font
@@ -3677,7 +3823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 190.5 41.6052 0)
 			(effects
 				(font
@@ -3904,7 +4050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 165.1 123.4948 0)
 			(effects
 				(font
@@ -3974,7 +4120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 153.3652 71.12 0)
 			(effects
 				(font
@@ -4086,6 +4232,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 114.3 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66d38641-01ef-4b29-b2c3-4dedf7cbdf35")
+		(property "Reference" "H3"
+			(at 116.84 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 116.84 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PhonoAmp"
+				(path "/7d780e20-3bc8-473b-9c67-abefb61105a4"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 138.43 0)
 		(unit 1)
@@ -4177,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 93.98 105.1052 0)
 			(effects
 				(font
@@ -4246,7 +4456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 165.1 59.9948 0)
 			(effects
 				(font
@@ -4382,7 +4592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 121.158 57.15 90)
 			(effects
 				(font
@@ -4452,7 +4662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.458 95.25 90)
 			(effects
 				(font
@@ -4489,6 +4699,70 @@
 			(project "PhonoAmp"
 				(path "/7d780e20-3bc8-473b-9c67-abefb61105a4"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 134.62 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ffc974f-7f65-4378-8cd5-8e81b02dd737")
+		(property "Reference" "H2"
+			(at 137.16 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 137.16 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 134.62 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 134.62 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PhonoAmp"
+				(path "/7d780e20-3bc8-473b-9c67-abefb61105a4"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4614,34 +4888,98 @@
 			)
 		)
 		(pin "7"
-			(uuid "801849cf-0fd5-4629-b8b2-bdf9d029b63e")
+			(uuid "801849cf-0fd5-4629-b8b2-bdf9d029b63f")
 		)
 		(pin "4"
-			(uuid "4c20e71a-49c0-4af7-b480-a0e366a06965")
+			(uuid "4c20e71a-49c0-4af7-b480-a0e366a06966")
 		)
 		(pin "8"
-			(uuid "3b56b3b3-baac-41c9-995b-cc29c91ccf82")
+			(uuid "3b56b3b3-baac-41c9-995b-cc29c91ccf83")
 		)
 		(pin "5"
-			(uuid "171dfb82-af33-483d-a938-e5f98c229fa4")
+			(uuid "171dfb82-af33-483d-a938-e5f98c229fa5")
 		)
 		(pin "3"
-			(uuid "16aadc3b-57d2-4418-8d1f-ffb331b61524")
+			(uuid "16aadc3b-57d2-4418-8d1f-ffb331b61525")
 		)
 		(pin "6"
-			(uuid "b7bb442f-1b7a-46f5-8235-19fe8abdebb6")
+			(uuid "b7bb442f-1b7a-46f5-8235-19fe8abdebb7")
 		)
 		(pin "2"
-			(uuid "160935a6-2477-48a7-a2b8-99750e6db0cb")
+			(uuid "160935a6-2477-48a7-a2b8-99750e6db0cc")
 		)
 		(pin "1"
-			(uuid "43c2617c-30fd-4502-beb2-874e900b1531")
+			(uuid "43c2617c-30fd-4502-beb2-874e900b1532")
 		)
 		(instances
 			(project ""
 				(path "/7d780e20-3bc8-473b-9c67-abefb61105a4"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 134.62 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d826061-2f8e-49b3-b252-8200c7b88e0f")
+		(property "Reference" "H4"
+			(at 137.16 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 137.16 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PhonoAmp"
+				(path "/7d780e20-3bc8-473b-9c67-abefb61105a4"
+					(reference "H4")
+					(unit 1)
 				)
 			)
 		)
@@ -4674,7 +5012,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.458 49.53 90)
 			(effects
 				(font
@@ -5014,7 +5352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.458 113.03 90)
 			(effects
 				(font
@@ -5148,7 +5486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 133.35 55.118 90)
 			(effects
 				(font
@@ -5216,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 181.61 51.562 90)
 			(effects
 				(font
@@ -5284,7 +5622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 190.5 105.1052 0)
 			(effects
 				(font
@@ -5352,7 +5690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 93.98 41.6052 0)
 			(effects
 				(font
@@ -5520,28 +5858,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "3911c2ff-2afd-4b71-a4d3-7f002903e575")
+			(uuid "3911c2ff-2afd-4b71-a4d3-7f002903e576")
 		)
 		(pin "7"
-			(uuid "416a5906-5c78-4405-8c59-5f337bb7a669")
+			(uuid "416a5906-5c78-4405-8c59-5f337bb7a66a")
 		)
 		(pin "4"
-			(uuid "ff988b2c-9d39-45aa-bc72-4c56ed3eb386")
+			(uuid "ff988b2c-9d39-45aa-bc72-4c56ed3eb387")
 		)
 		(pin "2"
-			(uuid "484ea35b-150f-4b96-8fe4-71d9bd51e656")
+			(uuid "484ea35b-150f-4b96-8fe4-71d9bd51e657")
 		)
 		(pin "1"
-			(uuid "c88f96e4-2ca8-48d9-af09-d389ec4d3fc1")
+			(uuid "c88f96e4-2ca8-48d9-af09-d389ec4d3fc2")
 		)
 		(pin "6"
-			(uuid "cd36b056-f169-4073-9cfd-e60f2ccb4a1b")
+			(uuid "cd36b056-f169-4073-9cfd-e60f2ccb4a1c")
 		)
 		(pin "3"
-			(uuid "c49667de-897d-4d3a-89cc-a893af5e9f1c")
+			(uuid "c49667de-897d-4d3a-89cc-a893af5e9f1d")
 		)
 		(pin "5"
-			(uuid "aa1e53bb-664b-4603-b152-9f01d9152b6f")
+			(uuid "aa1e53bb-664b-4603-b152-9f01d9152b70")
 		)
 		(instances
 			(project ""
@@ -5578,7 +5916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 168.91 118.618 90)
 			(effects
 				(font
@@ -5714,7 +6052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 120.3452 71.12 0)
 			(effects
 				(font
@@ -5784,7 +6122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 78.4352 179.07 0)
 			(effects
 				(font
@@ -5853,7 +6191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 177.8 59.9948 0)
 			(effects
 				(font
@@ -5987,7 +6325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 133.35 118.618 90)
 			(effects
 				(font
@@ -6150,28 +6488,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "801849cf-0fd5-4629-b8b2-bdf9d029b63e")
+			(uuid "801849cf-0fd5-4629-b8b2-bdf9d029b640")
 		)
 		(pin "4"
-			(uuid "4c20e71a-49c0-4af7-b480-a0e366a06965")
+			(uuid "4c20e71a-49c0-4af7-b480-a0e366a06967")
 		)
 		(pin "8"
-			(uuid "3b56b3b3-baac-41c9-995b-cc29c91ccf82")
+			(uuid "3b56b3b3-baac-41c9-995b-cc29c91ccf84")
 		)
 		(pin "5"
-			(uuid "171dfb82-af33-483d-a938-e5f98c229fa4")
+			(uuid "171dfb82-af33-483d-a938-e5f98c229fa6")
 		)
 		(pin "3"
-			(uuid "16aadc3b-57d2-4418-8d1f-ffb331b61524")
+			(uuid "16aadc3b-57d2-4418-8d1f-ffb331b61526")
 		)
 		(pin "6"
-			(uuid "b7bb442f-1b7a-46f5-8235-19fe8abdebb6")
+			(uuid "b7bb442f-1b7a-46f5-8235-19fe8abdebb8")
 		)
 		(pin "2"
-			(uuid "160935a6-2477-48a7-a2b8-99750e6db0cb")
+			(uuid "160935a6-2477-48a7-a2b8-99750e6db0cd")
 		)
 		(pin "1"
-			(uuid "43c2617c-30fd-4502-beb2-874e900b1531")
+			(uuid "43c2617c-30fd-4502-beb2-874e900b1533")
 		)
 		(instances
 			(project ""
@@ -6210,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 153.3652 134.62 0)
 			(effects
 				(font
@@ -6346,7 +6684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 121.158 120.65 90)
 			(effects
 				(font
@@ -6442,28 +6780,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "3911c2ff-2afd-4b71-a4d3-7f002903e575")
+			(uuid "3911c2ff-2afd-4b71-a4d3-7f002903e577")
 		)
 		(pin "7"
-			(uuid "416a5906-5c78-4405-8c59-5f337bb7a669")
+			(uuid "416a5906-5c78-4405-8c59-5f337bb7a66b")
 		)
 		(pin "4"
-			(uuid "ff988b2c-9d39-45aa-bc72-4c56ed3eb386")
+			(uuid "ff988b2c-9d39-45aa-bc72-4c56ed3eb388")
 		)
 		(pin "2"
-			(uuid "484ea35b-150f-4b96-8fe4-71d9bd51e656")
+			(uuid "484ea35b-150f-4b96-8fe4-71d9bd51e658")
 		)
 		(pin "1"
-			(uuid "c88f96e4-2ca8-48d9-af09-d389ec4d3fc1")
+			(uuid "c88f96e4-2ca8-48d9-af09-d389ec4d3fc3")
 		)
 		(pin "6"
-			(uuid "cd36b056-f169-4073-9cfd-e60f2ccb4a1b")
+			(uuid "cd36b056-f169-4073-9cfd-e60f2ccb4a1d")
 		)
 		(pin "3"
-			(uuid "c49667de-897d-4d3a-89cc-a893af5e9f1c")
+			(uuid "c49667de-897d-4d3a-89cc-a893af5e9f1e")
 		)
 		(pin "5"
-			(uuid "aa1e53bb-664b-4603-b152-9f01d9152b6f")
+			(uuid "aa1e53bb-664b-4603-b152-9f01d9152b71")
 		)
 		(instances
 			(project ""
@@ -6500,7 +6838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 168.91 55.118 90)
 			(effects
 				(font
