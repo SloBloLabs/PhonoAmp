@@ -3043,7 +3043,7 @@
 		)
 		(uuid "ffd42269-b3f4-4478-9855-9880275b3f8e")
 	)
-	(label "op2out"
+	(label "op2outR"
 		(at 177.8 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3054,7 +3054,7 @@
 		)
 		(uuid "0041ac23-29c7-49bd-b35a-6febba638a4d")
 	)
-	(label "op1in+"
+	(label "op1in+L"
 		(at 111.76 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3076,7 +3076,7 @@
 		)
 		(uuid "0a155029-6fbd-45c7-8f1e-c7dc771f5842")
 	)
-	(label "op2in-"
+	(label "op2in-L"
 		(at 152.4 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3087,7 +3087,7 @@
 		)
 		(uuid "12ae588c-a9d9-4e0e-8c64-1431c745a7cb")
 	)
-	(label "op2out"
+	(label "op2outL"
 		(at 177.8 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3098,7 +3098,7 @@
 		)
 		(uuid "15901ef9-1615-4df2-b395-f3138b33b891")
 	)
-	(label "op1in-"
+	(label "op1in-L"
 		(at 119.38 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3120,7 +3120,7 @@
 		)
 		(uuid "2e4019fe-54a6-4541-942f-90636ea60073")
 	)
-	(label "op2in+"
+	(label "op2in+L"
 		(at 149.86 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3153,7 +3153,7 @@
 		)
 		(uuid "3d2b1541-3a84-4df1-87c8-f490df70c6c9")
 	)
-	(label "op2in+"
+	(label "op2in+R"
 		(at 149.86 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3175,7 +3175,7 @@
 		)
 		(uuid "910ba43c-f614-4687-9426-0f626babe9c2")
 	)
-	(label "op1in-"
+	(label "op1in-R"
 		(at 119.38 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3208,7 +3208,7 @@
 		)
 		(uuid "af9d29f9-3107-43f1-b529-d652d208a029")
 	)
-	(label "op1in+"
+	(label "op1in+R"
 		(at 111.76 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3219,7 +3219,7 @@
 		)
 		(uuid "b8b57dc6-bfd9-44a8-8088-a30f831d67c7")
 	)
-	(label "op2in-"
+	(label "op2in-R"
 		(at 152.4 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3328,7 +3328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 120.3452 134.62 0)
 			(effects
 				(font
@@ -3545,7 +3545,7 @@
 				)
 			)
 		)
-		(property "Value" "1n5"
+		(property "Value" "1n"
 			(at 181.61 129.54 90)
 			(effects
 				(font
@@ -3823,7 +3823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 190.5 41.6052 0)
 			(effects
 				(font
@@ -4042,7 +4042,7 @@
 				)
 			)
 		)
-		(property "Value" "6n8"
+		(property "Value" "10n"
 			(at 168.91 129.54 90)
 			(effects
 				(font
@@ -4120,7 +4120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 153.3652 71.12 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 93.98 105.1052 0)
 			(effects
 				(font
@@ -4448,7 +4448,7 @@
 				)
 			)
 		)
-		(property "Value" "6n8"
+		(property "Value" "10n"
 			(at 168.91 66.04 90)
 			(effects
 				(font
@@ -5622,7 +5622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 190.5 105.1052 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 93.98 41.6052 0)
 			(effects
 				(font
@@ -5908,7 +5908,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "1M"
 			(at 168.91 113.03 90)
 			(effects
 				(font
@@ -6052,7 +6052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 120.3452 71.12 0)
 			(effects
 				(font
@@ -6183,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Value" "1n5"
+		(property "Value" "1n"
 			(at 181.61 66.04 90)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 153.3652 134.62 0)
 			(effects
 				(font
@@ -6830,7 +6830,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "1M"
 			(at 168.91 49.53 90)
 			(effects
 				(font

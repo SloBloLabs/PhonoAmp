@@ -2,9 +2,49 @@
   "last_sch_text_sim_command": "",
   "tabs": [
     {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 10u 300m",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/input)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "cursor1": {
+            "position": 0.15077054794520547,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "V(/output)",
+          "trace_type": 257
+        }
+      ]
+    },
+    {
       "analysis": "AC",
       "commands": [
-        ".ac dec 10 30 20k",
+        ".ac dec 10 20 20k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -29,41 +69,6 @@
           "color": "rgb(228, 26, 28)",
           "signal": "V(/output)",
           "trace_type": 521
-        }
-      ]
-    },
-    {
-      "analysis": "TRAN",
-      "commands": [
-        ".tran 10u 300m",
-        ".kicad adjustpaths",
-        ".save all",
-        ".probe alli",
-        ".probe allp"
-      ],
-      "dottedSecondary": true,
-      "margins": {
-        "bottom": 45,
-        "left": 70,
-        "right": 70,
-        "top": 30
-      },
-      "measurements": [],
-      "showGrid": true,
-      "traces": [
-        {
-          "color": "rgb(55, 126, 184)",
-          "cursor1": {
-            "position": 0.11988847583643122,
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "signal": "V(/op2out)",
-          "trace_type": 257
         }
       ]
     }

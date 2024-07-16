@@ -2689,7 +2689,7 @@
 				)
 			)
 		)
-		(property "Value" "6n8"
+		(property "Value" "10n"
 			(at 168.91 119.38 90)
 			(effects
 				(font
@@ -3794,7 +3794,7 @@
 				)
 			)
 		)
-		(property "Value" "1n5"
+		(property "Value" "1n"
 			(at 181.61 119.38 90)
 			(effects
 				(font
@@ -3960,7 +3960,7 @@
 				)
 			)
 		)
-		(property "Value" "750k"
+		(property "Value" "1M"
 			(at 168.91 102.87 90)
 			(effects
 				(font
