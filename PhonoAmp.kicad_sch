@@ -3545,7 +3545,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 181.61 129.54 90)
 			(effects
 				(font
@@ -3747,7 +3747,7 @@
 				)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 181.61 113.03 90)
 			(effects
 				(font
@@ -4042,7 +4042,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "47n"
 			(at 168.91 129.54 90)
 			(effects
 				(font
@@ -4111,7 +4111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 156.21 67.6909 0)
 			(effects
 				(font
@@ -4448,7 +4448,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "47n"
 			(at 168.91 66.04 90)
 			(effects
 				(font
@@ -5546,7 +5546,7 @@
 				)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 181.61 49.53 90)
 			(effects
 				(font
@@ -5908,7 +5908,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "220k"
 			(at 168.91 113.03 90)
 			(effects
 				(font
@@ -6183,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 181.61 66.04 90)
 			(effects
 				(font
@@ -6539,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 156.21 131.1909 0)
 			(effects
 				(font
@@ -6830,7 +6830,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "220k"
 			(at 168.91 49.53 90)
 			(effects
 				(font

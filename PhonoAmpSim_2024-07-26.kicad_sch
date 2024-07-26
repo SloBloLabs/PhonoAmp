@@ -1255,12 +1255,6 @@
 		(uuid "0cf23c2f-aa09-4652-a4d2-a41879ea1716")
 	)
 	(junction
-		(at 163.83 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ed2b579-51e0-418c-ad68-17368e763f22")
-	)
-	(junction
 		(at 200.66 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1301,12 +1295,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2d70905-8bff-49c3-bf38-fb5098027201")
-	)
-	(junction
-		(at 172.72 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb1e0ace-1dfb-4512-b143-a33fabfe6a42")
 	)
 	(junction
 		(at 106.68 91.44)
@@ -1461,16 +1449,6 @@
 			(type default)
 		)
 		(uuid "333c037e-227a-4bd0-90b3-ffeb1ee6add1")
-	)
-	(wire
-		(pts
-			(xy 163.83 130.81) (xy 172.72 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d22e37-a476-4294-8f35-67b1f78ce095")
 	)
 	(wire
 		(pts
@@ -1661,16 +1639,6 @@
 			(type default)
 		)
 		(uuid "a577806c-f80f-457e-906e-d570429bad32")
-	)
-	(wire
-		(pts
-			(xy 172.72 130.81) (xy 172.72 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aafe1ff0-21f1-4ac5-b5f3-5af3e9834e04")
 	)
 	(wire
 		(pts
@@ -1881,16 +1849,6 @@
 			(type default)
 		)
 		(uuid "fc86ed5e-0375-4100-b32d-565dbe8bf81b")
-	)
-	(wire
-		(pts
-			(xy 163.83 114.3) (xy 163.83 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff08e039-147f-442b-a63f-dcbe813b3c58")
 	)
 	(wire
 		(pts
@@ -2119,7 +2077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.55k"
+		(property "Value" "1.486k"
 			(at 156.21 111.7599 0)
 			(effects
 				(font
@@ -2595,7 +2553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 156.21 121.0309 0)
 			(effects
 				(font
@@ -2624,6 +2582,24 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 0 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 0 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2707,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "47n"
 			(at 168.91 119.38 90)
 			(effects
 				(font
@@ -2759,6 +2735,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 168.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 54.61 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 54.61 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3373,7 @@
 				)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 181.61 102.87 90)
 			(effects
 				(font
@@ -3407,6 +3401,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 74.93 -74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 74.93 -74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3848,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 181.61 119.38 90)
 			(effects
 				(font
@@ -3864,6 +3876,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 67.31 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 67.31 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4032,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "220k"
 			(at 168.91 102.87 90)
 			(effects
 				(font
@@ -4030,6 +4060,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 275.59 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 275.59 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
